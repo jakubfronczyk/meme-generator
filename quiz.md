@@ -1,5 +1,6 @@
 # Quiz about State in React
 
+
 1. How would you desciribe the concept of "state"?
 
 State refers to values that are managed by the component, similar to variables delacerd inside a function. 
