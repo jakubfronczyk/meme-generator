@@ -1,6 +1,5 @@
 # Quiz about State in React
 
-
 1. How would you desciribe the concept of "state"?
 
 State refers to values that are managed by the component, similar to variables delacerd inside a function. 
@@ -20,7 +19,7 @@ Immutable means unchanging. Props are immutable. State is mutable.
 5. You have 2 options for what you can pass in to a state setter function. What are they ?
 
     * new value of state
-    * callback function - whatever the callback function returns === new value of state
+    * callback function - whatever the callback function returns     new value of state
 
 6. When would you want to pass the first option to the state setter function ?
 
