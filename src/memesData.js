@@ -1,5 +1,3 @@
-
-
 const memesData = {
     "success": true,
     "data": {
