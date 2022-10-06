@@ -4,8 +4,7 @@ import memesData from '../memesData.js'
 
 export default function Meme(){
 
-    const [memeImage, setMemeImage] = React.useState("https://i.imgflip.com/30b1gx.jpg")
-
+    const [memeImage, setMemeImage] = React.useState("")
 
     function randomMeme(){
         const memesArray = memesData.data.memes
@@ -20,7 +19,7 @@ export default function Meme(){
                 <input type="text" className="form--input" placeholder="Bottom text"></input>
                 <button onClick={randomMeme} className="form--btn">Get a new meme image</button>
             </div>
-            {memeImage ? "memeImage" :<img src={memeImage} className="meme--image" alt="Meme"/>}
+            <img src={memeImage} className="meme--image" alt="Meme"/>
         </main>
     )
 }
