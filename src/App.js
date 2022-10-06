@@ -2,8 +2,7 @@ import React from 'react';
 import Header from './components/Header.js'
 import Meme from './components/Meme.js'
 
-
-function App() {
+export default  function App() {
 
   return (
     <>
@@ -13,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+
