@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../images/meme-logo.png'
 
-
 export default function Header(){
     return(
         <header className="header">
